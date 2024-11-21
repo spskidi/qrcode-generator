@@ -23,7 +23,7 @@ def main():
                     
                     # Get colors
                     color1 = input("Enter the fill color: ").strip()
-                    color2 = input("Enter the background color: ").strip()
+                    color2 = input("Enter the background color: ").strip()#for background of qr 
                     
                     # QR Code generation
                     qr = qrcode.QRCode(
